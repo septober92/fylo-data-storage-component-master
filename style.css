@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+:root {
+  /* Primary colors */
+
+  --left-side: hsl(6, 100%, 80%);
+  --right-side: hsl(335, 100%, 65%);
+
+  /* Neutral Colors */
+
+  --pale-blue: hsl(243, 100%, 93%);
+  --grayish-blue: hsl(229, 7%, 55%);
+  --dark-blue: hsl(228, 56%, 26%);
+  --very-dark-blue: hsl(229, 57%, 11%);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: var(--pale-blue);
+}
+
+ul {
+  list-style: none;
+}
+
+.fylo-data-storage {
+  min-height: 100vh;
+  background: url(images/bg-desktop.png) var(--very-dark-blue) bottom no-repeat;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 0;
+}
+
+.fylo-ds__contaner {
+  width: 920px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.fylo-navigation {
+  max-width: 350px;
+  /* height: 200px; */
+  padding: 41px 134px 41px 41px;
+  background-color: var(--dark-blue);
+  border-radius: 10px 100px 10px 10px;
+}
+
+.fylo-navigation .fylo-logo {
+  width: 135px;
+  margin-bottom: 30px;
+}
+
+.fylo-navigation .fylo-actions {
+  display: flex;
+  align-items: center;
+}
+
+.fylo-navigation .fylo-actions a {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-right: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fylo-actions li:nth-of-type(3) a {
+  margin-right: 0;
+}
+
+.fylo-data-info {
+  padding: 39px;
+  background-color: var(--dark-blue);
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+}
+
+.fylo-data-info p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.container {
+  width: 458px;
+
+  text-align: center;
+}
+
+.progress2 {
+  padding: 3px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.progress-moved .progress-bar2 {
+  width: 78%;
+}
+
+.progress-bar2 {
+  height: 14px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to right,
+    var(--left-side),
+    var(--right-side)
+  );
+  position: relative;
+}
+
+.progress-bar2:after {
+  content: '\f111';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 0.758rem;
+  color: #eee;
+  position: absolute;
+  top: 1.6px;
+  right: 2px;
+}
+
+.fylo-space-avail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.fylo-space-avail span {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.fylo-space-left {
+  display: flex;
+  align-items: center;
+  border-radius: 6px 6px 0 6px;
+  padding: 14px 26px;
+  background: #fff;
+  position: absolute;
+  top: -50px;
+  right: 40px;
+}
+.fylo-space-left:after {
+  content: '';
+  border-top: 22px solid #fff;
+  border-right: 22px solid #fff;
+  border-left: 22px solid transparent;
+  border-bottom: 22px solid transparent;
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+}
+
+.fylo-space-left h1 {
+  color: var(--very-dark-blue);
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.fylo-space-left {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--grayish-blue);
+}
