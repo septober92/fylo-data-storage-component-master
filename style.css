@@ -52,11 +52,11 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  gap: 30px;
 }
 
 .fylo-navigation {
   max-width: 350px;
-  /* height: 200px; */
   padding: 41px 134px 41px 41px;
   background-color: var(--dark-blue);
   border-radius: 10px 100px 10px 10px;
