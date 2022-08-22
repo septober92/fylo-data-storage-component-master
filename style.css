@@ -42,7 +42,6 @@ ul {
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-  /* padding: 20px; */
   margin: 0;
 }
 
@@ -206,11 +205,12 @@ ul {
 
   .fylo-data-info {
     max-width: 100%;
+    padding-bottom: 55px;
   }
 
   .fylo-space-left {
     border-radius: 6px 6px 6px 6px;
-    top: 115px;
+    top: 130px;
     left: 50%;
     translate: -50%;
     max-width: 120px;
@@ -243,8 +243,7 @@ ul {
 
   .fylo-space-left {
     justify-content: space-between;
-    width: 120px;
-    padding: 16px 25px;
+    width: 170px;
     top: 128px;
     left: 50%;
     translate: -50%;
