@@ -221,33 +221,13 @@ ul {
   }
 }
 
-@media (max-width: 620px) {
-  .fylo-data-storage {
-    max-width: 650px;
-    background: url(images/bg-mobile.png) var(--very-dark-blue) center/100%
-      no-repeat;
-  }
-
-  .fylo-ds__contaner {
-    max-width: 650px;
-  }
-
-  .fylo-navigation {
-    max-width: 100%;
-  }
-
-  .fylo-data-info {
-    max-width: 100%;
-  }
-}
-
 @media (max-width: 555px) {
   .fylo-ds__contaner {
     max-width: 555px;
   }
 
   .fylo-navigation {
-    padding: 40px 103px 40px 40px;
+    padding: 40px 104px 40px 40px;
   }
 
   .fylo-data-info {
