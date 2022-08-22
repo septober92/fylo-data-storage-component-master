@@ -56,7 +56,6 @@ ul {
 }
 
 .fylo-navigation {
-  max-width: 350px;
   padding: 41px 134px 41px 41px;
   background-color: var(--dark-blue);
   border-radius: 10px 100px 10px 10px;
@@ -188,16 +187,25 @@ ul {
 }
 
 @media (max-width: 950px) {
+  .fylo-data-storage {
+    background: url(images/bg-mobile.png) var(--very-dark-blue) center/100%
+      no-repeat;
+  }
+
   .fylo-ds__contaner {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 30px;
-    width: 536px;
+    max-width: 700px;
   }
 
   .fylo-navigation {
-    width: 550px;
+    max-width: 100%;
+  }
+
+  .fylo-data-info {
+    max-width: 100%;
   }
 
   .fylo-space-left {
@@ -225,7 +233,7 @@ ul {
   }
 
   .fylo-navigation {
-    width: 100%;
+    max-width: 100%;
   }
 
   .fylo-data-info {
@@ -239,8 +247,7 @@ ul {
   }
 
   .fylo-navigation {
-    max-width: 240px;
-    padding: 40px;
+    padding: 40px 103px 40px 40px;
   }
 
   .fylo-data-info {
