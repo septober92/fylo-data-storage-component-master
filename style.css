@@ -216,7 +216,6 @@ ul {
 @media (max-width: 620px) {
   .fylo-data-storage {
     max-width: 650px;
-    padding: 30px;
     background: url(images/bg-mobile.png) var(--very-dark-blue) center/100%
       no-repeat;
   }
