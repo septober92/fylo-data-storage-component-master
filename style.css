@@ -201,7 +201,7 @@ ul {
   }
 
   .fylo-navigation {
-    max-width: 100%;
+    align-self: stretch;
   }
 
   .fylo-data-info {
@@ -228,6 +228,7 @@ ul {
 
   .fylo-navigation {
     padding: 40px 104px 40px 40px;
+    max-width: 326px;
   }
 
   .fylo-data-info {
