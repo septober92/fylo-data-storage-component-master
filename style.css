@@ -211,8 +211,7 @@ ul {
   .fylo-space-left {
     border-radius: 6px 6px 6px 6px;
     top: 130px;
-    left: 50%;
-    translate: -50%;
+    left: 35%;
     max-width: 120px;
   }
 
@@ -246,6 +245,5 @@ ul {
     width: 170px;
     top: 128px;
     left: 50%;
-    translate: -50%;
   }
 }
