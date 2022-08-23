@@ -227,7 +227,8 @@ footer a:hover {
   .fylo-space-left {
     border-radius: 6px 6px 6px 6px;
     top: 130px;
-    left: 35%;
+    left: 50%;
+    transform: translateX(-50%);
     max-width: 120px;
   }
 
