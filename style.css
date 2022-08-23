@@ -261,5 +261,6 @@ footer a:hover {
     width: 170px;
     top: 128px;
     left: 50%;
+    transform: translateX(-50%);
   }
 }
